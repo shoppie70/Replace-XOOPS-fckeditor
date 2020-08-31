@@ -1,4 +1,4 @@
-CKEDITOR.editorConfig = function (config) {
+CKEDITOR.editorConfig = function ( config ) {
   config.toolbarGroups = [
     { name: "clipboard", groups: ["clipboard", "undo"] },
     {
