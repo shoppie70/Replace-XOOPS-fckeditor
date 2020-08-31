@@ -29,5 +29,5 @@ EOM;
 ```
 
 ### Customize a toolbar
-1. Loading `<script src="//cdn.ckeditor.com/4.14.1/full/ckeditor.js"></script>` insted of 
+1. Loading `<script src="//cdn.ckeditor.com/4.14.1/full/ckeditor.js"></script>` insted of the this script.
 2. Uncomment `customConfig: "/fckeditor_xoops/config.js`.
