@@ -21,6 +21,7 @@ $d3forum_wysiwyg_header = <<<EOM
             filebrowserUploadMethod: 'form',
             filebrowserUploadUrl: filebrowserUploadUrl,
             image_previewText: '画像アップロード',
+            // customConfig: "/fckeditor_xoops/config.js
         });
     });
     </script>
@@ -28,5 +29,5 @@ EOM;
 ```
 
 ### Customize a toolbar
-1. Loading `<script src="//cdn.ckeditor.com/4.14.1/full/ckeditor.js"></script>` insted of `<script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>`
-2. Add setting `customConfig: "/fckeditor_xoops/config.js"` in `CKEDITOR.replace(~~`
+1. Loading `<script src="//cdn.ckeditor.com/4.14.1/full/ckeditor.js"></script>` insted of now CDN script.
+2. Uncomment `customConfig: "/fckeditor_xoops/config.js`.
